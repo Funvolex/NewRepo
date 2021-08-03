@@ -30,7 +30,7 @@ namespace Snake
 
             Console.ReadLine();
         }
-        static void Draw(int x, int y, char sym)
+        static void Draw(int x, int y, char sym) //это метод(функция)
         {
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
