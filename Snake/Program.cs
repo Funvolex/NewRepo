@@ -6,16 +6,10 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            PointS p1 = new();
-            p1.x = 5;
-            p1.y = 4;
-            p1.sym = '*';
+            PointS p1 = new(5, 4, '*'); //пример инкапсуляции
             p1.Draw();
 
-            PointS p2 = new();
-            p2.x = 10;
-            p2.y = 12;
-            p2.sym = '@';
+            PointS p2 = new(10, 12, '@');
             p2.Draw();
 
             Console.ReadLine();
